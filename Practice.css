@@ -1,0 +1,339 @@
+body{
+    background-color: white;
+}
+
+h1{
+    color: purple;
+    font-style:sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    font-family:Poppins, Arial;
+    margin-top: 1px;
+    margin-left: 23px;
+}
+
+.logo{
+    margin-right: 350px;
+    cursor: pointer;
+}
+
+.search{
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: poppins, sans-serif;
+    color: #222222;
+}
+
+.calculator{
+cursor: pointer;
+font-size: 14px;
+font-family: poppins, sans-serif;
+color: #222222;
+}
+
+.signin{
+    margin-left: 280px;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 22px;
+    border-width: 0.001px;
+    height: 47px;
+    width:96.23px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    font-family: poppins;
+    font-size: 14px;
+    color: #676767;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    transition:all 0.3s ease-in-out;
+}
+
+.signin:active{
+    opacity: 0.9;
+    transform: scale(.8);
+}
+
+.employers{
+    background-color: white;
+    border-radius: 24px;
+    border-width: 0.001px;
+    height: 47px;
+    width:147.55px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    font-family: poppins;
+    font-size: 14px;
+    color:orangered;
+    border-color: orangered;
+}
+
+.employers:hover{
+color: white;
+background-color: orangered;
+}
+
+.com{
+    font-size: 10px;
+}
+
+.dot{
+   color: rgb(255, 81, 0);
+   font-size: 27px;
+}
+.cube{
+    color: rgb(255, 81, 0);
+    font-size: 35px;   
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.talent{
+    display: grid;
+    width: 650px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.signins{
+    background-color: orangered;
+    border-radius: 22px;
+    border-width: 0.001px;
+    height: 47px;
+    width:320px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    font-family: poppins;
+    font-size: 14px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.signins:hover{
+    opacity: 0.9;
+}
+
+.account{
+    background-color: white;
+    border-radius: 22px;
+    border-width: 0.001px;
+    height: 47px;
+    width:320px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    font-family: poppins;
+    font-size: 14px;
+    color: orangered;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.account:hover{
+color: white;
+background-color: orangered;
+}
+
+.connecting{
+font-size: 25px;
+font-family: poppins;
+margin-top: 50px;
+margin-right: 0px;
+margin-left: 80px;
+color: purple;
+}
+
+.letus{
+    color: #676767;
+    font-size: 16px;
+    font-family: poppins;
+    margin-left: 60px;
+    margin-bottom: 10px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.explore{
+    color:rgb(54, 5, 54);
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(248, 240, 240);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+}
+
+.find{
+    color:rgb(37, 10, 37);
+    font-size: 32px;
+    font-family: poppins;
+    font-weight: medium;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+.Jobsearchpic{
+    width: 471px;
+    height: 294px;
+    margin-top: 20px;
+}
+
+.calculatepay{
+    width: 471px;
+    height: 294px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.Jobsearch{
+    font-family: poppins;
+    font-size: 24px;
+    color: rgb(37, 10, 37);
+}
+
+.calculate{
+    font-family: poppins;
+    font-size: 24px;
+    color: rgb(37, 10, 37);
+}
+
+
+.Jobinfo{
+    font-size: 20px;
+    color: #676767;
+}
+
+.Thejob{
+    width: 280px;
+    height: 254px;
+    margin-left: 49px;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.Thecal{
+    width: 377px;
+    height: 254px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+.account-button{
+    background-color: orangered;
+    border-radius: 24px;
+    border-width: 0.001px;
+    height: 47px;
+    width:200px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    font-family: poppins;
+    font-size: 14px;
+    color:white;
+    border-color: orangered;
+    margin-bottom: 10px;
+}
+
+.account-button:hover{
+opacity: 0.9;
+}
+
+.learnmore{
+    background-color: white;
+    border-radius: 24px;
+    border-width: 0.001px;
+    height: 47px;
+    width:200px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: opacity 0.15;
+    font-family: poppins;
+    font-size: 14px;
+    color:orangered;
+    border-color: orangered;
+}
+
+.learnmore:hover{
+        color: white;
+        background-color: orangered;
+}
+
+.platform {
+font-size: 32px;
+font-family: poppins;
+color: white;
+font-weight: thin;
+width: 977px;
+height: 121.59px;
+margin-bottom: 5px;
+padding-left: 169px;
+}
+
+.discover{
+    background-color: #691F74;
+    height: 294px;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    font-family: poppins;
+}
+
+h6{
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    color: #13183F;
+    contrast: 40;
+}
+
+.icon-talent{
+    margin-top: 40px;
+    width: 70px;
+    height: 70px;
+}
+
+.items{
+    cursor: pointer;
+    color: #691F74;
+}
+
+.last:hover{
+    text-decoration: underline;
+}
+
+
