@@ -27,9 +27,11 @@ h1{
     font-size: 14px;
     font-family: poppins, sans-serif;
     color: #222222;
+    text-decoration: none;
 }
 
 .calculator{
+text-decoration: none;
 cursor: pointer;
 font-size: 14px;
 font-family: poppins, sans-serif;
@@ -330,6 +332,7 @@ padding-left: 169px;
     grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
     font-family: poppins;
+    margin-bottom: 20px;
 }
 
 h6{
@@ -345,8 +348,19 @@ h6{
 }
 
 .items{
+    display: grid;
+    justify-content: space-between;
     cursor: pointer;
     color: #691F74;
+    text-decoration: none;
+}
+
+.last{
+    display:grid;
+    grid-template-rows: 35px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
 }
 
 .last:hover{
@@ -543,3 +557,5 @@ h6{
         }
 
     }
+
+    
