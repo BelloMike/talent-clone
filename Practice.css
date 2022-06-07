@@ -2,6 +2,7 @@ body{
     background-color: white;
 }
 
+
 h1{
     color: purple;
     font-style:sans-serif;
@@ -368,6 +369,66 @@ h6{
 }
 
 @media screen and (max-width: 425px){
+
+    .joy{
+        display: block;
+        font-family: sans-serif;
+        text-decoration: none;
+    }
+    
+    .joy1{
+        display: flex;
+        font-family: sans-serif;
+        padding-bottom: 50px;
+        color: #222222;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    
+    .joy2{
+        display: flex;
+        font-family: sans-serif;
+        padding-bottom: 50px;
+        color: #222222;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    
+    .joy3{
+        display: flex;
+        font-family: sans-serif;
+        padding-bottom: 50px;
+        color: #222222;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    
+    .joy4{
+        display: flex;
+        font-family: sans-serif;
+        padding-bottom: 50px;
+        color: #222222;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    
+    .ya{
+        padding-left: 10px;
+        text-decoration: none;
+    }
+    
+    
+    .xmark{
+        padding-top: 15px;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    
+    .hello{
+        display: flex;
+        padding-bottom: 20px;
+    }
+    
     .search, .calculator, .signin, .employers, .talent{
         display: none;
     }
